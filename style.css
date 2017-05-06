@@ -103,11 +103,7 @@ span{
 }
 
 @media only screen and (max-width: 400px) {
-    
-    header{
-        height: 75vh;
-    }
-    
+      
     #title{
         font-size: 30px;
     }
