@@ -105,7 +105,10 @@ span{
 @media only screen and (max-width: 400px) {
     
     header{
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 100vh;
+        width: 100vw;
     }
     
     #title{
