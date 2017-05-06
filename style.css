@@ -103,23 +103,22 @@ span{
 }
 
 @media only screen and (max-width: 400px) {
-  header{
-    height: 100vh;
-  }
-  
+    
+    header{
+        height: 100vh;
+    }
+    
     #title{
         font-size: 30px;
     }
     
     nav, a{
-    margin-left: 0;
     color: white;
     font-size: 18px;
     text-transform: uppercase;
     font-family: "LemonMilk";
     text-decoration: none;
-    float: right;
-    margin: 15px 35px 30px 0;
+    width: auto;
     }
     
     #my_info{
