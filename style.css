@@ -14,11 +14,25 @@ header{
     width: 100vw;
     background-image: url(BG.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    
+    background-position: center center;  
+
 }
 
+#header2{
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1.5s ease-in;
+    display: none;
+}
 
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
 
 nav, a {
     display:  inline-block;
@@ -35,6 +49,7 @@ nav, a {
 a:hover{
    color: rgba(255,255,255,0.5);
 }
+
 
 #title{
     text-align: center;
