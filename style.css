@@ -26,6 +26,7 @@ header {
     padding: 0;
     animation: fadeIn 1.5s ease-in;
     display: none;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -101,7 +102,7 @@ span {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 870px;
+    top: 670px;
     left: 50%;
     cursor: pointer;
 }
@@ -155,7 +156,18 @@ span {
     text-transform: uppercase;
     letter-spacing: 7px;
     font-family: "LemonMilk";
-    margin: 50px auto 100px auto;
+    margin: 50px auto 0px auto;
+}
+
+
+#contact2 {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: "LemonMilk";
+    margin: 10px auto 100px auto;
 }
 
 
@@ -301,7 +313,6 @@ textarea:hover {
     display: none;
     position: fixed;
     width: 100vw;
-    ;
     height: 100vh;
     top: 0;
     left: 0;
@@ -317,7 +328,7 @@ textarea:hover {
     top: 25%;
     right: 25%;
     background-color: white;
-    z-index: 22;
+    z-index: 20;
     animation: fadeIn 1s ease-in;
 }
 .txt {
@@ -340,7 +351,7 @@ textarea:hover {
     height: 100px;
     top: 50px;
     right: 50px;
-    z-index: 50;
+    z-index: 999;
     cursor: pointer;
 }
 #insta {
@@ -368,6 +379,46 @@ textarea:hover {
     cursor: pointer;
 }
 
+/*ABOUT PAGE*/
+
+
+#aboutTitle{
+    font-family: 'lemonmilk';
+    font-size: 72pt;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 35px;
+    clear: both;
+}
+
+
+#profileImg{
+width: 440px;
+height:560px;
+position: absolute;
+left:36%;
+top: 360px;
+}
+
+#aboutsection1{
+    width: 100vw;
+    height: 50vh;
+    background-color: pink;
+}
+
+#aboutsection2{
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+}
+
+#aboutsection3{
+    width: 100vw;
+    height: 50vh;
+    background-color: pink;
+}
 /*Media Qeuires Start */
 
 
@@ -385,7 +436,7 @@ textarea:hover {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 870px;
+    top: 670px;
     left: 50%;
     cursor: pointer;
 }
@@ -499,7 +550,7 @@ textarea:hover {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 1450px;
+        top: 1500px;
         left: 48%;
         cursor: pointer;
     }
@@ -508,7 +559,7 @@ textarea:hover {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 1450px;
+        top: 1500px;
         left: 35%;
         cursor: pointer;
     }
@@ -517,7 +568,7 @@ textarea:hover {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 1450px;
+        top: 1500px;
         left: 61%;
         cursor: pointer;
     }
@@ -541,7 +592,32 @@ textarea {
     width: 332px;
     }
     
+    #insta {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 1530px;
+        left: 48%;
+        cursor: pointer;
+    }
     
+    #link {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 1530px;
+        left: 35%;
+        cursor: pointer;
+    }
+    
+    #fb {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 1530px;
+        left: 61%;
+        cursor: pointer;
+    }
     
     
 }
@@ -672,8 +748,8 @@ textarea {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 1450px;
-        left: 40%;
+        top: 1500px;
+        left: 44%;
         cursor: pointer;
     }
     
@@ -681,7 +757,7 @@ textarea {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 1450px;
+        top: 1500px;
         left: 20%;
         cursor: pointer;
     }
@@ -690,8 +766,8 @@ textarea {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 1450px;
-        left: 60%;
+        top: 1500px;
+        left: 66%;
         cursor: pointer;
     }
     

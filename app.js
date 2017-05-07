@@ -13,6 +13,8 @@ $(function () {            
     });        
 });
 
+
+
 // shrinking header
 
 $(document).scroll(function(){
