@@ -43,7 +43,7 @@ a {
     display: inline-block;
     margin-left: 20px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: "LemonMilk";
     text-decoration: none;
@@ -466,7 +466,7 @@ top: 360px;
     a {
         margin-left: 0;
         color: white;
-        font-size: 18px;
+        font-size: 19px;
         text-transform: uppercase;
         font-family: "LemonMilk";
         text-decoration: none;
@@ -494,7 +494,6 @@ top: 360px;
         width: 400px;
         max-width: 400px;
     }
-    
     
     
     
@@ -742,6 +741,16 @@ textarea {
     z-index: 50;
     cursor: pointer;
 }
+   
+    #contact{
+        margin-bottom: 10px;
+    }
+    
+#contact2 {
+    font-size: 16px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    }
     
     
     #insta {
@@ -770,8 +779,220 @@ textarea {
         left: 66%;
         cursor: pointer;
     }
+ 
     
     
+    #aboutTitle{
+    font-family: 'lemonmilk';
+    font-size: 34pt;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+
+#profileImg{
+width: 225px;
+height: 300px;
+position: absolute;
+left:20%;
+top: 275px;
+}
     
     
 }
+
+
+/*Ipads */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    
+    #downArrow{
+    top: 950px;
+    }
+    
+    #leftArrow{
+    top: 750px;
+    }
+    
+    #rightArrow{
+    top: 750px;
+    }
+    
+   #insta {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 1650px;
+        left: 44%;
+        cursor: pointer;
+    }
+    
+    #link {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 1650px;
+        left: 20%;
+        cursor: pointer;
+    }
+    
+    #fb {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 1650px;
+        left: 70%;
+        cursor: pointer;
+    }
+
+    
+    }
+
+/*Iphone 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    
+    nav,
+    a {
+        font-size: 14px;
+        margin: 7px 18px 0 0;
+    }
+    #header2{
+    height:  100px;   
+    }
+    
+    #downArrow{
+    width: 30px;
+    height: 30px;
+    top: 620px;
+    left: 45%;
+    }
+    
+    #leftArrow{
+    width: 30px;
+    height: 30px;
+    top: 400px;
+    }
+    
+    #rightArrow{
+    width: 30px;
+    height: 30px;
+    top: 400px;
+    }
+    
+    #contact2{
+        font-size: 12px;
+    }
+    
+    #insta {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 1200px;
+        left: 44%;
+        cursor: pointer;
+    }
+    
+    #link {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 1200px;
+        left: 20%;
+        cursor: pointer;
+    }
+    
+    #fb {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 1200px;
+        left: 70%;
+        cursor: pointer;
+    }
+
+    
+    
+    
+    }
+
+
+/*Iphone 5*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+     nav,
+    a {
+        font-size: 14px;
+        margin: 7px 18px 0 0;
+    }
+    #header2{
+    height:  50px;   
+    }
+    
+    #downArrow{
+    width: 30px;
+    height: 30px;
+    top: 500px;
+    left: 45%;
+    }
+    
+    #leftArrow{
+    width: 30px;
+    height: 30px;
+    top: 400px;
+    }
+    
+    #rightArrow{
+    width: 30px;
+    height: 30px;
+    top: 400px;
+    }
+    
+    #contact2{
+        font-size: 12px;
+    }
+    
+    #insta {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 1100px;
+        left: 44%;
+        cursor: pointer;
+    }
+    
+    #link {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 1100px;
+        left: 20%;
+        cursor: pointer;
+    }
+    
+    #fb {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 1100px;
+        left: 70%;
+        cursor: pointer;
+    }
+
+    
+    
+
+    
+    
+    }
+
+
+
